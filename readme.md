@@ -17,4 +17,4 @@ This portfolio highlights who I am, what I do, and how to get in touch with me.
 
 
 ## 🌐 Live Preview
-👉 [View My Portfolio](https://yourusername.github.io/portfolio-sample/)
+👉 [View My Portfolio](https://ad4rtech.github.io/portfolio/)
