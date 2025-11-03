@@ -225,4 +225,151 @@ body {
     border-radius: 8px;
  }
 
+ /* ===============================
+   MEDIA QUERIES
+================================*/
+
+/* For tablets and small laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+   .nav-links {
+      gap: 2rem;
+   }
+
+   .hero {
+      flex-direction: row;
+      text-align: center;
+      height: auto;
+      padding: 8rem 2rem;
+      gap: 20px;
+   }
+
+   .hero-info {
+      padding: 0;
+      align-items: center;
+   }
+
+   .hero-img img {
+      width: 60%;
+   }
+
+   .about {
+      flex-direction: row;
+      gap: 40px;
+      text-align: center;
+   }
+
+   .about-img,
+   .about-text {
+      width: 100%;
+   }
+
+   .about-skills ul {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+/* For mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+   .navbar {
+      flex-direction: column;
+      padding: 1rem;
+   }
+
+   .logo img {
+      height: 40px;
+   }
+
+   .nav-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+   }
+
+   .hero-info h1 {
+      font-size: 1.8rem;
+   }
+
+   .hero-info h3 {
+      font-size: 1.1rem;
+   }
+
+   .hero-info p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+   }
+
+   .hero-img img {
+      width: 70%;
+   }
+
+   .contact-btn,
+   .cv {
+      width: 60%;
+   }
+
+   .about-skills ul {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .about-skills ul li {
+      font-size: 0.9rem;
+      padding: 6px;
+   }
+}
+
+/* For very small devices (max-width: 480px) */
+@media (max-width: 480px) {
+   .navbar {
+      flex-direction: column;
+   }
+
+   .nav-links {
+      flex-direction: column;
+      gap: 1rem;
+   }
+
+   .hero {
+      padding: 6rem 1rem;
+   }
+
+   .hero-info h1 {
+      font-size: 1.5rem;
+   }
+
+   .hero-info p {
+       font-size: 0.85rem;
+   }
+
+   .hero-img img {
+      width: 80%;
+   }
+
+   .about {
+      padding: 20px;
+      margin: 10px;
+   }
+
+   .about-text span {
+      font-size: 1.5rem;
+   }
+
+   .about-text h3 {
+      font-size: 1 rem;
+   }
+
+   .about-skills ul {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .about-skills ul li {
+      font-size: 0.85rem;
+   }
+
+   .cv,
+   .contact-btn {
+      width: 80%;
+   }
+}
+
+
  
